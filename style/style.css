@@ -8,7 +8,7 @@
 /* use property=og:... for branding */
 /* comm: l'envie total respectueuse de vouloir transmettre l'information qu'on veut transmettre */
 body {
-    background-image: url("ds.webp");
+    /* background-image: url("ds.webp"); */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
