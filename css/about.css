@@ -79,5 +79,7 @@ nav#navBar {
 }
 
 #whoAre {
+    align-items: center;
+    padding: 10% 0%;
     background-color: #FFFFFF7F;  /* 50% opacity */
 }
