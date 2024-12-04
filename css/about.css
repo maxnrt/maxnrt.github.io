@@ -95,7 +95,7 @@ nav#navBar {
     align-items: center;
     margin-left: 35%;
     margin-right: 35%;
-    background-color: #FFFFFF7F;  /* 50% opacity */
+    background-color: #f7ff817f;  /* 50% opacity */
     width: 30%;
 }
 
@@ -105,4 +105,5 @@ article#whoAre section {
 
 .person-description {
     margin: 1rem;
+    color: black;
 }
