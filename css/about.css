@@ -78,11 +78,6 @@ nav#navBar {
     align-items: flex-start;
 }
 
-#genderChoice {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-form {
-    margin-top: 50%;
+#whoAre {
+    background-color: #FFFFFF7F;  /* 50% opacity */
 }
