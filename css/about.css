@@ -80,8 +80,9 @@ nav#navBar {
 }
 
 #whoAre {
-    justify-content: center;
+    align-items: center;
     padding-left: 10%;
     padding-right: 10%;
     background-color: #FFFFFF7F;  /* 50% opacity */
+    width: 80%;
 }
