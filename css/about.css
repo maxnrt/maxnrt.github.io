@@ -75,14 +75,22 @@ nav#navBar {
 .flexRow {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: flex-start;
 }
 
 #whoAre {
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
     background-color: #FFFFFF7F;  /* 50% opacity */
-    width: 80%;
+    width: 30%;
+}
+
+article#whoAre section {
+    margin: 1rem;
+}
+
+.person-description {
+    margin: 1rem;
 }
