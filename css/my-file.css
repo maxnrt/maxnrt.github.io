@@ -100,11 +100,3 @@ a:active {
 #intro {
     color: green;
 }
-
-input[type=range].vertical {
-    writing-mode: vertical-lr;
-    direction: rtl;
-    appearance: slider-vertical;
-    width: 16px;
-    vertical-align: bottom;
-}
