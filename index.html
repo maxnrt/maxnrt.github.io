@@ -14,110 +14,22 @@
 </head>
 
 <body>
-    <!-- This is another comment -->
-    <!-- Class is used to group up elements to edit all of them in CSS -->
-    <!-- Whereas id is unique and only exists in a single element, letting you edit a single element separately from its class (since id takes priority over class) -->
-    <h1>My first web page!</h1>
-    <div id="topIdk">
-        <ol id="longTextsLmao">
-            <li id="firstParagraph">
-                <strong>
-                    <span id="intro">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.
-                </strong>
-            </li>
-            <li>
-                <em>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                    enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-                    qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                    consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
-                    quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-                    nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-                    quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-                </em>
-            </li>
-            <li>
-                <i>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
-                    corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in
-                    culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et
-                    expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
-                    quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem
-                    quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et
-                    molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus
-                    maiores alias consequatur aut perferendis doloribus asperiores repellat.
-                </i>
-            </li> 
-        </ol> 
-    
-    <!-- pre puts it on the right since there is tabulation and it's "pre"formatted -->
-    <!-- i lets you put a text in italic -->
-    <!-- em does that as well by default, but also indicates to bots and screen readers that there is an embasis on the text -->
-
-        <div id="tables">
-            <div class="CoupleTables">
-                <table id="topTable">
-                    <tr>
-                        <th>test</th>
-                    </tr>
-                    <tr>
-                        <td>test2</td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <th>test</th>
-                        <td>test2</td>
-                        <td>test3</td>
-                        <td>test4</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="CoupleTables">
-                <table>
-                    <tr>
-                        <th rowspan="3">test</th>
-                        <td>test2</td>
-                    </tr>
-                    <tr>
-                        <td>test4</td>
-                    </tr>
-                    <tr>
-                        <td>test5</td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <th colspan="2">test</th>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">test2</td>
-                        <td>test3</td>
-                    </tr>
-                    <tr>
-                        <td>test4</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </div> 
-    <a id="ytAd" href="https://www.youtube.com/@Purparmalm">Click here lmao</a>
-
-
-    <form action="mailto:maxime.noiret@etu.univ-amu.fr" title="Feedback Form">
-        <fieldset id="feedbackForm">
+    <nav id="navBar">
+        <a href="" class="navBut">Home</a></li>
+        <a href="page1/index.html" class="navBut">Page 1</a></li>
+        <a href="page2/index.html" class="navBut">Page 2</a></li>
+        <a href="page3/index.html" class="navBut">Page 3</a></li>
+        <a href="about/index.html" class="navBut" id="aboutBut">About</a></li>
+    </nav>
+    <form action="mailto:maxime.noiret@etu.univ-amu.fr" title="Feedback Form" enctype="text/plain">
+        <fieldset class="flexCol">
             <legend>Send Feedback</legend>
-            <div id="feedbackInputs">
+            <div class="flexCol">
                 <label for="ln">Last Name</label>
                 <input type="text" name="Last Name" id="ln" required>    
                 <label for="fn">First Name</label>
                 <input type="text" name="First Name" id="fn" required>
-                <div title="Gender Choice">
+                <div class="flexRow" id="genderChoice">
                     <label for="gm">M</label>
                     <input type="radio" name="Gender" id="gm" required>
                     <label for="gf">F</label>

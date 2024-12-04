@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin: 0;
 }
 
 h1 {
@@ -29,74 +30,57 @@ strong {
     font-weight: 1000;
 }
 
-#topIdk {
+
+nav#navBar {
+    background-color: #00DD00;
+    overflow: hidden;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
 }
 
-#firstParagraph {
-    border-style: solid;
-    border-width: 0.3em;
-    border-radius: 0.5em;
+#aboutBut {
+    margin-left: auto;
+}
+
+.navBut {
     padding: 1em;
-    margin-bottom: 1em;
+    background-color: #00B400;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-style: solid;
+    border-color: #008C00;
 }
 
-table {
-    border-style: solid;
-    border-width: 0.35em;
-    border-radius: 0.5em;
-    border-color: white;
-    margin: 1em;
-}
-th {
-    border-style: solid;
-    border-width: 0.25em;
-    border-color: #777777;
-}
-td {
-    border-style: solid;
-    border-width: 0.15em;
-    border-color: #666666;
+.navBut:hover {
+    background-color: #008C00;
 }
 
-#topTable {
-    margin-top: 1em;
-}
-
-#tables {
+#pagesBut {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
 }
 
-
-
-a {
-    color: cyan;
-    text-decoration-line: none;
-}
-
-a:hover {
-    color: #636363;
-}
-
-a:active {
-    color: white;
-}
-
-#feedbackForm {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
-
-#feedbackInputs {
+.flexCol {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-#intro {
-    color: green;
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#genderChoice {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+form {
+    margin-top: 50%;
 }
