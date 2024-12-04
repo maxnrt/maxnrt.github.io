@@ -31,6 +31,18 @@ strong {
     font-weight: 1000;
 }
 
+a {
+    color: aqua;
+}
+
+a:hover {
+    color: #212121;
+}
+
+a:active {
+    color: white;
+}
+
 
 nav#navBar {
     background-color: #00DD00;
