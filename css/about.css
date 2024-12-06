@@ -120,7 +120,7 @@ header {
 #whoAre {
     align-items: center;
     background-color: #f7ff817f;  /* 50% opacity */
-    width: 25rem;
+    width: auto;
 }
 
 @media (min-width: 600px) {
@@ -138,7 +138,6 @@ article#whoAre section {
 .person-description {
     margin: 1rem;
     color: black;
-    text-wrap:wrap;
 }
 
 .sticky {
