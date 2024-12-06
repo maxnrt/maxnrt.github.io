@@ -1,3 +1,7 @@
+html {
+    font-family: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
 body {
     /* background-image: url(/logo.png); */
     background-position: center;
@@ -6,7 +10,7 @@ body {
     background-color: #212121;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin: 0;
     background-attachment: scroll;
 }
@@ -43,34 +47,57 @@ a:active {
     color: white;
 }
 
+img {
+    width: 10em;    /* think about making another file for this size */
+    height: auto;
+}
 
-nav#navBar {
-    background-color: #00DD00;
+@media (min-width: 600px) {
+    img {
+        width: 25em;
+        height: auto;
+    }
+}
+
+
+header {
+    background-color: #24255a;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: flex-start;
     background-attachment: scroll;
+    position: sticky;
+    top: 0;
 }
 
 #aboutBut {
     margin-left: auto;
 }
 
+
 .navBut {
-    padding: 1em;
-    background-color: #00B400;
+    padding: 0.5rem;
+    background-color: #050627;
     text-decoration: none;
-    color: black;
-    font-size: 1.5rem;
+    color: #55568A;
+    font-size: 1rem;
     font-weight: 600;
     border-style: solid;
-    border-color: #008C00;
+    border-color: #121340;
+}
+
+@media (min-width: 600px) {
+    .navBut {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
 }
 
 .navBut:hover {
-    background-color: #008C00;
+    background-color: #55568A;
+    color: #121340;
 }
 
 #pagesBut {
@@ -87,16 +114,21 @@ nav#navBar {
 .flexRow {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     align-items: flex-start;
 }
 
 #whoAre {
     align-items: center;
-    margin-left: 35%;
-    margin-right: 35%;
     background-color: #f7ff817f;  /* 50% opacity */
-    width: 30%;
+    width: 25rem;
+}
+
+@media (min-width: 600px) {
+    #whoAre {
+        align-items: center;
+        background-color: #f7ff817f;  /* 50% opacity */
+        width: 50rem;
+    }
 }
 
 article#whoAre section {
@@ -106,4 +138,9 @@ article#whoAre section {
 .person-description {
     margin: 1rem;
     color: black;
+    text-wrap:wrap;
+}
+
+.sticky {
+    position: sticky;
 }

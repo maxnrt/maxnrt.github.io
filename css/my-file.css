@@ -44,14 +44,16 @@ a:active {
 }
 
 
-nav#navBar {
-    background-color: #00DD00;
+header {
+    background-color: #24255a;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: flex-start;
     background-attachment: scroll;
+    position: sticky;
+    top: 0;
 }
 
 #aboutBut {
@@ -59,18 +61,19 @@ nav#navBar {
 }
 
 .navBut {
-    padding: 1em;
-    background-color: #00B400;
+    padding: 1rem;
+    background-color: #050627;
     text-decoration: none;
-    color: black;
+    color: #55568A;
     font-size: 1.5rem;
     font-weight: 600;
     border-style: solid;
-    border-color: #008C00;
+    border-color: #121340;
 }
 
 .navBut:hover {
-    background-color: #008C00;
+    background-color: #55568A;
+    color: #121340;
 }
 
 #pagesBut {
