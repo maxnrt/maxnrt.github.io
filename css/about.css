@@ -36,7 +36,7 @@ h1 {
     font-weight: 1000;
 }
 
-h1, p, table, tr, th, td, form, legend, label, ol, li {
+h1, h2, p, table, tr, th, td, form, legend, label, ol, li {
     color: white;
 }
 
@@ -140,7 +140,7 @@ header {
     max-width: 54em;
 }
 
-article#whoAre section {
+article#whoAre div {
     margin: 1rem;
 }
 
