@@ -15,6 +15,23 @@ body {
     background-attachment: scroll;
 }
 
+img.PCImg {
+    display: none;
+}
+
+img.TelImg {
+    display: inline;
+}
+
+@media (min-width: 600px) {
+    img.PCImg {
+        display: inline;
+    }
+    img.TelImg {
+        display: none;
+    }
+}
+
 h1 {
     font-weight: 1000;
 }
@@ -81,7 +98,7 @@ header {
     padding: 0.5rem;
     background-color: #050627;
     text-decoration: none;
-    color: #55568A;
+    color: #8384B3;
     font-size: 1rem;
     font-weight: 600;
     border-style: solid;
