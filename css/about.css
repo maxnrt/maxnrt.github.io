@@ -154,6 +154,11 @@ article#whoAre div {
     position: sticky;
 }
 
+#CSSValidation {
+    align-self: flex-end;
+    margin-right: 1rem;
+}
+
 .RA {
     text-align: right;
 }
