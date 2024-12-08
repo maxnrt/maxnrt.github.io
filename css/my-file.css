@@ -64,20 +64,28 @@ header {
     margin-left: auto;
 }
 
+
 .navBut {
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: #050627;
     text-decoration: none;
-    color: #55568A;
-    font-size: 1.5rem;
+    color: #8384B3;
+    font-size: 1rem;
     font-weight: 600;
     border-style: solid;
     border-color: #121340;
 }
 
+@media (min-width: 600px) {
+    .navBut {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
 .navBut:hover {
-    background-color: #55568A;
-    color: #121340;
+    background-color: #9999C2;
+    color: #050627;
 }
 
 #pagesBut {
