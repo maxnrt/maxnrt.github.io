@@ -119,15 +119,13 @@ header {
 
 #whoAre {
     align-items: center;
-    background-color: #f7ff817f;  /* 50% opacity */
+    background-color: #1213407F;  /* 50% opacity */
     width: auto;
 }
 
 @media (min-width: 600px) {
     #whoAre {
-        align-items: center;
-        background-color: #f7ff817f;  /* 50% opacity */
-        width: 50rem;
+        max-width: 54em;
     }
 }
 
@@ -137,9 +135,18 @@ article#whoAre section {
 
 .person-description {
     margin: 1rem;
-    color: black;
+    color: white;
+    font-weight: 600;
 }
 
 .sticky {
     position: sticky;
+}
+
+.RA {
+    text-align: right;
+}
+
+.CA {
+    text-align: center;
 }
