@@ -114,7 +114,7 @@ header {
 
 .navBut:hover {
     background-color: #55568A;
-    color: #121340;
+    color: #050627;
 }
 
 #pagesBut {
@@ -137,13 +137,7 @@ header {
 #whoAre {
     align-items: center;
     background-color: #1213407F;  /* 50% opacity */
-    width: auto;
-}
-
-@media (min-width: 600px) {
-    #whoAre {
-        max-width: 54em;
-    }
+    max-width: 54em;
 }
 
 article#whoAre section {
