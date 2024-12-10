@@ -15,23 +15,6 @@ body {
     background-attachment: scroll;
 }
 
-img.PCImg {
-    display: none;
-}
-
-img.TelImg {
-    display: inline;
-}
-
-@media (min-width: 600px) {
-    img.PCImg {
-        display: inline;
-    }
-    img.TelImg {
-        display: none;
-    }
-}
-
 h1 {
     font-weight: 1000;
 }
