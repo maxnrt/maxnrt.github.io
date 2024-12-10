@@ -15,6 +15,10 @@ body {
     background-attachment: scroll;
 }
 
+img {
+    
+}
+
 h1 {
     font-weight: 1000;
 }
@@ -47,18 +51,22 @@ a:active {
     color: white;
 }
 
-
-
 header {
+    width: 100%;
+}
+
+nav#navbar, nav#navbar ul {
     background-color: #24255a;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: auto;
     justify-content: flex-start;
     background-attachment: scroll;
     position: sticky;
     top: 0;
+    list-style-type: none;
 }
 
 #aboutBut {
