@@ -47,17 +47,6 @@ a:active {
     color: white;
 }
 
-img {
-    width: 10em;
-    height: auto;
-}
-
-@media (min-width: 600px) {
-    img {
-        width: 25em;
-        height: auto;
-    }
-}
 
 
 header {
