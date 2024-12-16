@@ -2,7 +2,7 @@ oui bonsoir\
 oui oui baguette\
 croissant
 ## Tout Doux
-- [X] Figma
+- [ ] Figma
   - [ ] Home
   - [ ] Page 1
   - [ ] Page 2
