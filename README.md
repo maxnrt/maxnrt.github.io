@@ -1,6 +1,6 @@
 oui bonsoir\
 oui oui baguette\
-croissant\
+croissant
 ## Tout Doux
 - [X] Figma
 - [ ] Site Web
