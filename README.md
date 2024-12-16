@@ -14,4 +14,4 @@ croissant
   - [ ] Page 2
   - [ ] Page 3
   - [X] About
-- [ ] Héberger le site
+- [X] Héberger le site
