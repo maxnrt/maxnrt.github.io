@@ -1,4 +1,7 @@
 oui bonsoir\
 oui oui baguette\
 croissant\
-- [X] to do
+## Tout Doux
+- [X] Figma
+- [ ] Site Web
+- [ ] Héberger le site
