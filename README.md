@@ -1,3 +1,3 @@
-oui bonsoir
-oui oui baguette
-croissant
+oui bonsoir\
+oui oui baguette\
+croissant\
