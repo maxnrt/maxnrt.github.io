@@ -129,13 +129,8 @@ nav#navbar, nav#navbar ul {
 
 #whoAre {
     align-items: center;
-    background-color: #1213407F;  /* 50% opacity */
-    max-width: 54em;
-}
-
-article#whoAre div {
-    margin: 1rem;
-    background-image: url('dog.jpg');
+    background-color: #ffffff7f;  /* 50% opacity */
+    max-width: 120em;
 }
 
 .person-description {
