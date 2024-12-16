@@ -1,0 +1,151 @@
+html {
+    font-family: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+body {
+    /* background-image: url(/logo.png); */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-attachment: scroll;
+    background-image: url('dog.jpg');
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+img#initDIMG {
+    width: 50em;
+}
+
+h1 {
+    font-weight: 1000;
+}
+
+h1, h2, p, table, tr, th, td, form, legend, label, ol, li {
+    color: white;
+}
+
+p, table, tr, th, td, form, legend, label,  ol, li {
+    font-weight: 600;
+}
+
+fieldset {
+    border-radius: 0.7em;
+}
+
+strong {
+    font-weight: 1000;
+}
+
+a {
+    color: aqua;
+}
+
+a:hover {
+    color: #212121;
+}
+
+a:active {
+    color: white;
+}
+
+header {
+    width: 100%;
+    background-image: url('dog.jpg');
+}
+
+nav#navbar, nav#navbar ul {
+    background-color: #24255a;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    background-attachment: scroll;
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    background-image: url('dog.jpg');
+}
+
+#aboutBut {
+    margin-left: auto;
+}
+
+
+.navBut {
+    padding: 0.5rem;
+    background-color: #050627;
+    text-decoration: none;
+    color: #8384B3;
+    font-size: 1rem;
+    font-weight: 600;
+    border-style: solid;
+    border-color: #121340;
+    background-image: url('dog.jpg');
+}
+
+@media (min-width: 600px) {
+    .navBut {
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-image: url('dog.jpg');
+    }
+}
+
+.navBut:hover {
+    background-color: #9999C2;
+    color: #050627;
+}
+
+#pagesBut {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url('dog.jpg');
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#whoAre {
+    align-items: center;
+    background-color: #1213407F;  /* 50% opacity */
+    max-width: 54em;
+}
+
+article#whoAre div {
+    margin: 1rem;
+    background-image: url('dog.jpg');
+}
+
+.person-description {
+    margin: 1rem;
+    color: white;
+    font-weight: 600;
+}
+#imgintro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
