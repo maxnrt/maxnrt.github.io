@@ -22,6 +22,12 @@ main {
     align-items: center;
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 img#initDIMG {
     width: 50em;
 }
@@ -142,8 +148,8 @@ article#whoAre div {
     color: white;
     font-weight: 600;
 }
-main
-.sticky {
+
+main.sticky {
     position: sticky;
 }
 
@@ -160,4 +166,15 @@ main
 .CA {
     text-align: center;
     /* background-image: url('dog.jpg');  Funny teacher troll moment */
+}
+
+
+.largeImg {
+    width: 20em;
+}
+
+@media (min-width: 600px) {
+    .largeImg {
+        width: auto;
+    }
 }
