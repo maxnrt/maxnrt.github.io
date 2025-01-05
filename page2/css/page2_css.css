@@ -1,0 +1,128 @@
+html {
+    font-family: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/*********************************** the nav bar ******************************************************/
+
+nav#navbar, nav#navbar ul {
+    background-color: #24255a;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    background-attachment: scroll;
+    list-style-type: none;
+}
+
+#aboutBut {
+    margin-left: auto;
+}
+
+.navBut {
+    padding: 0.5rem;
+    background-color: #050627;
+    text-decoration: none;
+    color: #8384B3;
+    font-size: 1rem;
+    font-weight: 600;
+    border-style: solid;
+    border-color: #121340;
+}
+
+@media (min-width: 600px) {
+    .navBut {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+.navBut:hover {
+    background-color: #9999C2;
+    color: #050627;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+/****************************************** end for the navbar ******************************************/
+
+/************************************ flex ***********************************/
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flexAround {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+/*************************************** end flex ****************************/
+
+body {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #3F0000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    background-attachment: scroll;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #1213407f;  /* 7f for 50% opacity */
+    max-width: min-content;
+
+}
+
+#imgIntro{
+    display: flex;
+    align-items: center;
+
+    max-width: fit-content;
+}
+
+h1,h2 {
+    font-weight: 1000;
+}
+
+h1, h2, p, table, label, ol, li {
+    color: white;
+}
+
+p {
+    margin: 1rem;
+    font-weight: 600;
+}
+
+#linkMovies{
+    margin: 1rem;
+}
+
