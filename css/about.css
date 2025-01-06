@@ -186,13 +186,11 @@ main.sticky {
 }
 
 #rightImage {
-    height: 0;
-    overflow: hidden;
-    background-size: cover;
-    background-repeat: no-repeat;
+    display:none;
 }
 @media (min-width: 840px) {
     #rightImage {
+        display:inline;
         height: auto;
         background-image: url("eminenceagain_400p.webp");
         padding-left: 2em;
