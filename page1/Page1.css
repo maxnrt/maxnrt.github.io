@@ -144,8 +144,13 @@ nav#navbar, nav#navbar ul {
     justify-content: space-around;
     width: 100%;
 }
-@media (max-width: 700px) {
+
+#imageR {
+    display: none;
+}
+@media (min-width: 700px) {
     #imageR{
-        display: none;
+        display:inline;
     }
 }
+/**white text and dark bg**/
