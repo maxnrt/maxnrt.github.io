@@ -28,8 +28,12 @@
         <article title="Who we are" class="flexCol" id="whoAre">
             <h1><a href="https://anime-sama.fr/catalogue/initial-d/" title="Initial D le meilleur anime">Initial D</a></h1>
             <div id="imgintro">
-                <img src="initial-d_PC.webp" alt="image initial d">
-                <img src="../page1/oui.webp" alt="image drift initial d">
+                <img srcset=" ../page1/oui.webp 210w, ../page1/oui.webp 350w"
+                     sizes="(max-width: 600px) 210px, 350px"
+                     alt="drift initial D">
+                <img srcset="initial-d.webp 210w, initial-d_PC.webp 350w"
+                     sizes="(max-width: 600px) 210px, 350px"
+                     alt="test image of a cat that will be replaced">
             </div>
             <p>Contrairement à ses amis, Takumi Fujiwara n'est pas particulièrement intéressé par les voitures,
                 avec peu ou pas de connaissances sur le monde des passionnés d'automobile et des coureurs de rue. 
@@ -45,12 +49,11 @@
                 locales : l'AE86 du mont Akina.</p>
             <h2>Easter egg de l'anime</h2>
             <video controls src="test.mp4">
-                <track default kind="captions" srclang="en" src="output.mp4.vtt" />
-                <track default kind="captions" srclang="fr" src="output.mp4.vtt" />
+                <track default kind="captions" srclang="fr" src="sub.vtt" />
                 Download the
                 <a href="test.mp4">MP4</a>
                 video, and
-                <a href="output.mp4.vtt">subtitles</a>.
+                <a href="sub.vtt">subtitles</a>.
             </video>
         </article>
     </main>
