@@ -144,3 +144,8 @@ nav#navbar, nav#navbar ul {
     justify-content: space-around;
     width: 100%;
 }
+@media (max-width: 700) {
+    #imageR{
+        display: none;
+    }
+}
