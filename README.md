@@ -8,10 +8,10 @@ croissant
   - [X] Page 2
   - [X] Page 3
   - [X] About
-- [ ] Site Web
+- [X] Site Web
   - [X] Home
-  - [ ] Page 1
-  - [ ] Page 2
+  - [X] Page 1
+  - [X] Page 2
   - [X] Page 3
   - [X] About
 - [X] Héberger le site
