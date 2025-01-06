@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    /* background-image: url(/logo.png); */
+    background-image: url(/logo.png);
+    back
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
