@@ -161,6 +161,9 @@ p {
 #linkMovies{
     /* margin: 1rem; */
     max-width: fit-content;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 a {
