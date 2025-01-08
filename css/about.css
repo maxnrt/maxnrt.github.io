@@ -82,6 +82,11 @@ nav#navbar, nav#navbar ul {
     /* background-image: url('dog.jpg'); */
 }
 
+/* make theme button round */
+button.navBut {
+    border-radius: 2em;
+}
+
 @media (min-width: 600px) {
     .navBut {
         padding: 1rem;
