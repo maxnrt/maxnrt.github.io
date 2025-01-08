@@ -170,3 +170,7 @@ main.sticky {
         padding-left: 2em;
     }
 }
+
+.desc {
+    text-align: center;
+}
