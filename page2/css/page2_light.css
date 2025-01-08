@@ -1,0 +1,40 @@
+/**************************** nav bar ****************************/
+nav#navbar, nav#navbar ul {
+    background-color: #ffffff;
+}
+
+.navBut {
+    background-color: #ffffff;
+    /* color: #8384b3; */
+    border-color: #121340;
+}
+
+.navBut:hover {
+    background-color: #9999c2;
+    color: #050627;
+}
+
+/**************************** end nav bar ****************************/
+
+body {
+    background-color: rgb(157,9,7);
+}
+
+main{
+    /* background-color: #effceb; */
+    background-color: #9cecee;
+}
+
+/**************************** Link colors ****************************/
+
+/* a {
+    color: aqua;
+} */
+
+a:hover {
+    color: #050627;
+}
+
+/* a:active {
+    color: white;
+} */

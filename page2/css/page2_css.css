@@ -5,7 +5,6 @@ html {
 /*********************************** the nav bar ******************************************************/
 
 nav#navbar, nav#navbar ul {
-    background-color: #24255a;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -22,13 +21,10 @@ nav#navbar, nav#navbar ul {
 
 .navBut {
     padding: 0.5rem;
-    background-color: #050627;
     text-decoration: none;
-    color: #8384B3;
     font-size: 1rem;
     font-weight: 600;
     border-style: solid;
-    border-color: #121340;
 }
 
 @media (min-width: 600px) {
@@ -51,7 +47,7 @@ header {
 
 /****************************************** end for the navbar ******************************************/
 
-/************************************ flex ***********************************/
+/************************************ flex class ***********************************/
 .flexCol {
     display: flex;
     flex-direction: column;
@@ -67,7 +63,7 @@ header {
 .flexCenter {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    
 }
 
 .flexAround {
@@ -77,13 +73,18 @@ header {
 
 }
 
-/*************************************** end flex ****************************/
+.flexBetween {      /* not used */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/**************************** end flex  class ****************************/
 
 body {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: #3F0000;
 
     display: flex;
     flex-direction: column;
@@ -98,7 +99,6 @@ main {
     flex-direction: column;
     align-items: center;
 
-    background-color: #1213407f;  /* 7f for 50% opacity */
     max-width: min-content;
 
 }
@@ -110,23 +110,36 @@ main {
     }
 }
 
-#imgIntro{
-    display: flex;
-    align-items: center;
+/******************************** picture ********************************/
 
-    max-width: fit-content;
-}
+/* #img01{
+    margin: 2em;
+} */
 
+@media (min-width: 840px) {
 #img02 {
-    padding-right: 5em;
+    padding-right: 15em;
+    
+    }
 }
+
+#img03 {            /* si possible faire en sorte que l'image apparaisse apres le summary */
+    display: none;
+}
+@media (min-width: 840px) {
+    #img03 {
+        display: inline;
+    }
+}
+
+/******************************** text ********************************/
 
 h1,h2 {
     font-weight: 1000;
 }
 
-h1, h2, p, table, label, ol, li {
-    color: white;
+h1, h2, p, table, label {
+    text-align: center;
 }
 
 p {
@@ -135,29 +148,26 @@ p {
     text-align: center;
 }
 
+/******************************** link ********************************/
+
+a{
+    text-align: center;
+}
+
 #linkMovies{
-    margin: 1rem;
+    /* margin: 1rem; */
+    /* max-width: fit-content; */
+    display: flex;
+    justify-content: space-between;
+
 }
 
-a {
-    color: aqua;
+.linkMovies {
+    margin: 0em;
 }
 
-a:hover {
-    color: white;
-}
-
-a:active {
-    color: white;
-}
-
-
-
-
-
-/* @-moz-document{
-    .linkSpace{
-        padding-right: 5em;
+@media (min-width: 540px) {
+    .linkMovies {
+        margin: 1em;
     }
 }
- */
