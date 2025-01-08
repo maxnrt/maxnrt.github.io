@@ -29,27 +29,42 @@
         </nav>
     </header>
 
-
-    
-    <form action="mailto:maxime.noiret@etu.univ-amu.fr" title="Feedback Form" enctype="text/plain">
-        <fieldset class="flexCol">
-            <legend>Send Feedback</legend>
-            <div class="flexCol">
-                <label for="ln">Last Name</label>
-                <input type="text" name="Last Name" id="ln" required>    
-                <label for="fn">First Name</label>
-                <input type="text" name="First Name" id="fn" required>
-                <div class="flexRow" id="genderChoice">
-                    <label for="gm">M</label>
-                    <input type="radio" name="Gender" id="gm" required>
-                    <label for="gf">F</label>
-                    <input type="radio" name="Gender" id="gf" required>
+    <div title="Two animes at top" id="2anim">
+        <img src="Drift_451w_225h.webp" alt="drift initial d">
+        <img
+            src="Cruces_del_Segundo_Impacto.webp" 
+            srcset="Cruces_del_Segundo_Impacto.webp 1000w, Cruces_del_Segundo_Impacto_320px.webp 320w"
+            sizes="(max-width: 1000px) 320px, 1000px"
+            alt="A picture of the last film, in which the antagonists prepare for the final stage of their plan"
+            id="img01">
+    </div>
+    <div>
+        <form action="mailto:maxime.noiret@etu.univ-amu.fr" title="Feedback Form" enctype="text/plain">
+            <fieldset class="flexCol">
+                <legend>Send Feedback</legend>
+                <div class="flexCol">
+                    <label for="ln">Last Name</label>
+                    <input type="text" name="Last Name" id="ln" required>    
+                    <label for="fn">First Name</label>
+                    <input type="text" name="First Name" id="fn" required>
+                    <div class="flexRow" id="genderChoice">
+                        <label for="gm">M</label>
+                        <input type="radio" name="Gender" id="gm" required>
+                        <label for="gf">F</label>
+                        <input type="radio" name="Gender" id="gf" required>
+                    </div>
+                    <textarea name="Message" id="fb" placeholder="Write some Feedback!" rows="3" cols="20"></textarea>
                 </div>
-                <textarea name="Message" id="fb" placeholder="Write some Feedback!" rows="3" cols="20"></textarea>
-            </div>
-            <input type="submit" value="Submit">
-            <input type="reset" value="Reset">
-        </fieldset>
-    </form>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+        <img src="eminence.webp"
+             srcset="eminence_250p.webp 250w, eminence_400p.webp 400w"
+             sizes="(max-width: 500px) 250px, 400px"
+             alt="Official image of the anime The Eminence in Shadow">
+    </div>
+
+
 </body>
 </html>
