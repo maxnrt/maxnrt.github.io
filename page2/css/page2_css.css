@@ -118,6 +118,7 @@ main {
 
 @media (min-width: 840px) {
 #img02 {
+    margin: 2em;
     padding-right: 15em;
     
     }
@@ -129,6 +130,7 @@ main {
 @media (min-width: 840px) {
     #img03 {
         display: inline;
+        margin: 2em;
     }
 }
 

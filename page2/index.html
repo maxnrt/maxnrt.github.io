@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="css/page2_css.css">
 
     <!-- #################### end css  call ####################-->
+        <script src="switchTheme.js"></script>
 
         <title>The Rebuild of Evangelion</title>
     </head>
@@ -31,21 +32,21 @@
                 <a href="/page1/" class="navBut">Initial D</a>
                 <a href="/page2/" class="navBut">Rebuild Evanglion</a>
                 <a href="/page3/" class="navBut">Page 3</a>
-                <button type="button" onclick="switchCSS()">Test</button>
+                <button type="button" class="navBut" onclick="switchCSS()">Light / Dark</button>
                 <a href="/about/" class="navBut" id="aboutBut">About</a>
             </nav>
         </header>
         
         <main>
-        <!-- <div title="Introduction"> -->
+        <!-- <div title="Introduction">  // i remove this because the picture don't wont to center when the width is inferior to 1000-->
             <h1 class="flexCenter"> The Rebuild of Evanglion</h1>
-            <img 
+            <img
+            src="Cruces_del_Segundo_Impacto.webp" 
             srcset="Cruces_del_Segundo_Impacto.webp 1000w, Cruces_del_Segundo_Impacto_320px.webp 320w"
             sizes="(max-width: 1000px) 320px, 1000px"
             alt="A picture of the last film, in which the antagonists prepare for the final stage of their plan"
             id="img01">
-
-            <div id="divIntro">
+            <div>
                 <p title="Subject of the page">
                     The rebuil is a quadrilogie of movie that at the begining retell the event of 
                     the series but with slight modification in the first film and a great one at the end of 
