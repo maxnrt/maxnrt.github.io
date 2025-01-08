@@ -17,9 +17,8 @@ nav#navbar, nav#navbar ul {
 /**************************** end nav bar ****************************/
 
 body{
-    /* background-color: #3F0000; */
-    background: linear-gradient(black,#9b1402);
-    /* #D51A03 */
+    /* background-color: #3F0000;  // garder parceque voila */
+    background: linear-gradient(black,#6d0e01);
 }
 
 main {
