@@ -90,12 +90,6 @@ button.navBut {
     align-items: flex-start;
 }
 
-.flexRow {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
 #genderChoice {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -106,5 +100,4 @@ button.navBut {
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    min-width: 25em;
 }
