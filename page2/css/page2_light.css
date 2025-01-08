@@ -1,10 +1,10 @@
 /**************************** nav bar ****************************/
 nav#navbar, nav#navbar ul {
-    background-color: #effceb;
+    background-color: #B2B3D9;
 }
 
 .navBut {
-    background-color: #effceb;
+    background-color: #9999C2;
     border-color: #121340;
 
 }
@@ -17,8 +17,6 @@ nav#navbar, nav#navbar ul {
 /**************************** end nav bar ****************************/
 
 body {
-    background-color: #effceb;
-    background-color: #92ddeb;
     background: linear-gradient(#effceb,#92ddeb);
 }
 
