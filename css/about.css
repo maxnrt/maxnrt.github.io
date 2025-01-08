@@ -140,12 +140,6 @@ main.sticky {
     position: sticky;
 }
 
-#CSSValidation {
-    align-self: flex-end;
-    margin-right: 1rem;
-    /* background-image: url('dog.jpg'); */
-}
-
 .RA {
     text-align: right;
 }
