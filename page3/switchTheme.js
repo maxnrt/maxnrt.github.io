@@ -1,5 +1,5 @@
-let colors_css_files = ["/css/colors_dark.css", "/css/colors_light.css"]
-let currIndex = 0;
+var colors_css_files = ["/css/colors_dark.css", "/css/colors_light.css"]
+var currIndex = 0;
 
 function switchCSS() {
     const cssLink = document.getElementById("cssColors");
