@@ -39,11 +39,11 @@ nav#navbar, nav#navbar ul {
     color: #050627;
 }
 
-header {
-    width: 100%;
-    position: sticky;
-    top: 0;
+/* make theme button round */
+button.navBut {
+    border-radius: 2em;
 }
+
 
 /****************************************** end for the navbar ******************************************/
 
@@ -80,6 +80,11 @@ header {
 }
 
 /**************************** end flex  class ****************************/
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
 
 body {
     background-position: center;
@@ -118,6 +123,7 @@ main {
 
 @media (min-width: 840px) {
 #img02 {
+    margin: 2em;
     padding-right: 15em;
     
     }
@@ -129,6 +135,7 @@ main {
 @media (min-width: 840px) {
     #img03 {
         display: inline;
+        margin: 2em;
     }
 }
 
