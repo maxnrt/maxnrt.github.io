@@ -7,10 +7,16 @@
     <meta charset="utf-8">
     <link rel="icon" href="../favicon.ico">
     <link rel="icon" type="image/png" href="../logo.png">
+
     <link rel="stylesheet" href="../page1/Page1.css">
-    <meta property="og:title" content="Purparmalm's Insane Webpage!" ></meta>
+    <link rel="stylesheet" id="cssColors" href="../page1/page1_dark.css">
+    <!-- <link rel="stylesheet" href="../page1/page1_light.css"> -->
+
+    <meta property="og:title" content="Purparmalm's Insane Webpage!" >
     <meta property="og:description" content="Welcome to my insane webpage!!!1!1!!!1!" />
     <meta property="og:link" content="https://maxnrt.github.io">
+
+    <script src="switchTheme.js"></script>
 </head>
 
 <body>
@@ -20,6 +26,7 @@
             <a href="/page1/" class="navBut">Initial D</a>
             <a href="/page2/" class="navBut">Page 2</a>
             <a href="/page3/" class="navBut">Page 3</a>
+            <button type="button" class="navBut" onclick="switchCSS()">Theme</button>
             <a href="/about/" class="navBut" id="aboutBut">About</a>
         </nav>
     </header>
@@ -27,12 +34,15 @@
     <main>
         <article title="Who we are" class="flexCol" id="whoAre">
             <h1><a href="https://anime-sama.fr/catalogue/initial-d/" title="Initial D le meilleur anime">Initial D</a></h1>
+            
             <div id="imgintro">
-                <img srcset=" ../page1/oui_petit.webp 798w, ../page1/oui.webp 998w"
+                <img src="Drift_451w_225h.webp" alt="drift initial d">
+                <!-- <img srcset=" ../page1/oui_petit.webp 798w, ../page1/oui.webp 998w"
                      sizes="(max-width: 1000px) 798px, 998px"
-                     alt="drift initial d">
-                <img id="imageR" src="initial-d_PC.webp" alt="initial d">
+                     alt="drift initial d"> -->
+                <img id="imageR" src="initial-d_400w_225h.webp" alt="initial d">
             </div>
+
             <p class="margText"> Unlike his friends, Takumi Fujiwara is not particularly interested in cars, with little to no knowledge about
                 the world of car enthusiasts and street racers. The son of a tofu shop owner, he is tasked to deliver tofu every morning without fail, 
                 driving along the mountain of Akina. Thus, conversations regarding cars or driving in general would only remind Takumi of the tiring daily routine 

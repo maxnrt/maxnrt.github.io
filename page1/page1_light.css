@@ -1,0 +1,41 @@
+body{
+    background-color: #effceb;
+}
+
+#whoAre {
+    background-color: #ffffff;  /* 50% opacity */
+}
+
+/******************** link ********************/
+a {
+    color: black;
+}
+
+a:hover {
+    color: #050627;
+}
+
+a:active {
+    color: black;
+}
+
+/******************** nav bar ********************/
+
+nav#navbar, nav#navbar ul {
+    background-color: #B2B3D9;
+
+}
+
+.navBut {
+    /* background-color: #050627;
+    color: #8384B3;
+    border-color: #121340; */
+
+    background-color: #9999C2;
+    border-color: #121340;
+}
+
+.navBut:hover {
+    background-color: #9999c2;
+    color: #050627;
+}
