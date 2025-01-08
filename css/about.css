@@ -106,13 +106,13 @@ button.navBut {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* background-image: url('dog.jpg'); */
 }
 
 .flexRow {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    min-width: 25em;
 }
 
 #subBG {
