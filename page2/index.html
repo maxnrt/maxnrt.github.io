@@ -6,19 +6,22 @@
         <meta name="description" content="project">
         <meta name="keywords" content="HTML, CSS, JavaScript">
         <meta name="author" content="Martin Demange">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Description" content="A page about the serie of movies know as Rebuild of Evangelion">
+
 
         <link rel="icon" href="/favicon.ico">
         <link rel="icon" type="image/png" href="/logo.png">
-        <!-- <link rel="stylesheet" href="../css/about.css"> -->
-         <link rel="stylesheet" href="css/page2_light.css">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- #################### css call ####################-->
 
-
-        <meta name="Description" content="A page about the serie of movies know as Rebuild of Evangelion">
-        <title>The Rebuild of Evangelion</title>
+        <link rel="stylesheet" href="css/page2_dark.css">
+        <!-- <link rel="stylesheet" href="css/page2_light.css"> -->
         <link rel="stylesheet" href="css/page2_css.css">
-        <!-- <link rel="icon" type="image/png" href="logo.png"> -->
+
+    <!-- #################### end css  call ####################-->
+
+        <title>The Rebuild of Evangelion</title>
     </head>
 
     <body>
@@ -33,16 +36,15 @@
         </header>
         
         <main>
-        <div title="Introduction" class="flexCol">
+        <!-- <div title="Introduction"> -->
             <h1 class="flexCenter"> The Rebuild of Evanglion</h1>
-            <div>
-                <img src="Cruces_del_Segundo_Impacto_320px.webp" 
-                    srcset="Cruces_del_Segundo_Impacto.webp 1000w, Cruces_del_Segundo_Impacto_320px.webp 350w"
-                    sizes="(max-width: 1000px) 350px, 1000px"
-                    class="flexCenter"
-                    id="img01"
-                    alt="If you see this,this mean the picture didn't downloaded">
+            <img 
+            srcset="Cruces_del_Segundo_Impacto.webp 1000w, Cruces_del_Segundo_Impacto_320px.webp 320w"
+            sizes="(max-width: 1000px) 320px, 1000px"
+            alt="If you see this,this mean the picture didn't downloaded"
+            id="img01">
 
+            <div id="divIntro">
                 <p title="Subject of the page">
                     The rebuil is a quadrilogie of movie that at the begining retell the event of 
                     the series but with slight modification in the first film and a great one at the end of 
@@ -50,34 +52,33 @@
                     These changes will lead to a happier ending compared to the orginal series. 
                 </p>
             </div>
-        </div>
+        <!-- </div> -->
 
         <div class="flexAround">
-            <img title="Shinji Ikari, the main protagonist" id="img02" src="Shinji_Ikari.webp" alt="If you see this, the picture didn't download">
-            <img title="Eva 01, the evangelion of Shinji" id="img03" src="Eva01.webp" alt="If you see this, the picture didn't download">
-
+            <img title="Shinji Ikari, the main protagonist" id="img02" src="Shinji_Ikari_25.webp" alt="If you see this, the picture didn't download">
+            <img title="Eva 01, the evangelion of Shinji" id="img03" src="Eva01_25.webp" alt="If you see this, the picture didn't download">
         </div>
 
         <div title = "Summary">
             <h2 class="flexCenter">Summary</h2>
-            <p title="first movie" id="syno01">
+            <p title="first movie" >
                 Evangelion: 1.0 You Are (Not) Alone : is a nearly line-for-line, shot-for-shot remake of episodes 1 to 6. 
                 Despite the great similarities, some differences are notable, like the introduction of Lilith and a 
                 mysterious apparition of Kaworu on the moon.
             </p>
-            <p title="second movie" id="syno02">
+            <p title="second movie" >
                 Evangelion: 2.0 You Can (Not) Advance : continues the story of Evangelion: 1.0 You Are (Not) Alone, and 
                 is a much looser retelling or re-imagining of episodes 8 through 23. Its differences from these episodes 
                 include newly designed creatures and new characters, such as Mari Illustrious Makinami. Asuka is introduced 
                 in this film bearing a new surname, and some other differences from her original incarnation.
             </p>
-            <p title="third movie" id="syno03">
+            <p title="third movie" >
                 Evangelion: 3.0 You Can (Not) Redo is the first film to completely break from the original continuity and tell
                 a completely new story. Taking place fourteen years after the previous events and heavily featuring 
                 Kaworu, a new organization called WILLE is introduced and described as a NERV rival. New types of Evas 
                 are introduced, as well as new characters such as Sakura Suzuhara, Toji's sister.
             </p>
-            <p title="last movie" id="syno04">    
+            <p title="last movie" >    
                 Evangelion: 3.0+1.0 Thrice Upon a Time concludes the story. Presented in it are some references 
                 from End of Evangelion and some scenes from the original show. It shows the final conflict between NERV 
                 and WILLE, as well as between Gendo and Shinji.
@@ -92,14 +93,17 @@
                 This new ending reflect the changes of the perception of the creator of the evangelion franchise,  Hideaki Anno, toward loneliness.
             </p>
         </div>
-        <div title="Link to the movies" id="linkMovies">
-            <a href="https://myanimelist.net/anime/2759/Evangelion_Movie_1__Jo" >The first movie </a>
-            <a href="https://myanimelist.net/anime/3784/Evangelion_Movie_2__Ha">The Second movie</a>
-            <a href="https://myanimelist.net/anime/3785/Evangelion_Movie_3__Q" >The third movie</a>
-            <a href="https://myanimelist.net/anime/3786/Shin_Evangelion_Movie_%7C%7C" >The fourth movie</a>
+        <div title="Link to the movies" class="flexCenter">
+            <a href="https://myanimelist.net/anime/2759/Evangelion_Movie_1__Jo" class="linkMovies">The first movie </a>
+            <a href="https://myanimelist.net/anime/3784/Evangelion_Movie_2__Ha" class="linkMovies">The Second movie</a>
+            <a href="https://myanimelist.net/anime/3785/Evangelion_Movie_3__Q" class="linkMovies">The third movie</a>
+            <a href="https://myanimelist.net/anime/3786/Shin_Evangelion_Movie_%7C%7C" class="linkMovies">The fourth movie</a>
         </div>
 
         </main>
     </body>
 
 </html>
+
+<!-- class="flexCol" -->
+<!-- src="Cruces_del_Segundo_Impacto_320px.webp" -->
