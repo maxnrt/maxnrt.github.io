@@ -69,7 +69,7 @@ button.navBut {
     border-radius: 2em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .navBut {
         padding: 1rem;
         font-size: 1.5rem;
