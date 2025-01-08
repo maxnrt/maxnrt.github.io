@@ -105,5 +105,6 @@ button.navBut {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
     min-width: 25em;
 }
