@@ -100,3 +100,10 @@ button.navBut {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-width: 25em;
+}
