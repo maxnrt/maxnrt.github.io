@@ -8,18 +8,25 @@
     <link rel="icon" href="favicon.ico">
     <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="css/my-file.css">
-    <meta property="og:title" content="Purparmalm's Insane Webpage!" ></meta>
+    <script src="/about/switchTheme.js"></script>
+    <link id="cssColors" rel="stylesheet" href="/css/colors_dark.css">
+    <meta property="og:title" content="Insane Webpage!" ></meta>
     <meta property="og:description" content="Welcome to my insane webpage!!!1!1!!!1!" />
     <meta property="og:link" content="https://maxnrt.github.io">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Main page for Insane Webpage, where three young developpers talk about anime">
 </head>
 
 <body>
     <header>
-        <a href="/" class="navBut">Home</a>
-        <a href="/page1/" class="navBut">Page 1</a>
-        <a href="/page2/" class="navBut">Page 2</a>
-        <a href="/page3/" class="navBut">Page 3</a>
-        <a href="/about/" class="navBut" id="aboutBut">About</a>
+        <nav id="navbar">
+            <a href="/" class="navBut">Home</a>
+            <a href="/page1/" class="navBut">Initial D</a>
+            <a href="/page2/" class="navBut">Page 2</a>
+            <a href="/page3/" class="navBut">Page 3</a>
+            <button type="button" onclick="switchCSS()" class="navBut">Theme</button>
+            <a href="/about/" class="navBut" id="aboutBut">About</a>
+        </nav>
     </header>
 
 
