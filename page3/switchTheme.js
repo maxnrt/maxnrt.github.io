@@ -6,6 +6,6 @@ function switchCSS() {
     if (cssLink) {
         cssLink.href == colors_css_files[0] ? cssLink.href = colors_css_files[1] : colors_css_files[0];
     } else {
-        console.warn('CSS file not found:', existingCssHref);
+        console.warn('CSS file not found');
     }
 }
