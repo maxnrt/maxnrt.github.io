@@ -84,7 +84,7 @@ nav#navbar, nav#navbar ul {
 
 /* make theme button round */
 button.navBut {
-    border-radius: 50%;
+    border-radius: 5em;
     padding-left: 2em;
 }
 
